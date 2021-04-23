@@ -1,0 +1,58 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.links {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.link {
+  margin-left: 5px;
+}
+
+.dataSearch {
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.scroll {
+  overflow-y: auto !important;
+  max-height: 650px !important;
+}
+
+.btn {
+  border-radius: 5px;
+  border: 1px solid skyblue;
+}
+
+.btn > a {
+  text-decoration: none;
+}
+
+.fa-star {
+  color: rgb(255, 169, 27) !important;
+}
+
+.box {
+  margin-top: 10px !important;
+}
+
+.p {
+  color: rgba(255, 255, 255, 0.8);
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.title {
+  font-size: 12px;
+}
+
+.main-title {
+  color: skyblue;
+}
+
+.count {
+  color: skyblue;
+}
