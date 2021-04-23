@@ -13,7 +13,12 @@ import oxygen from "./Images/oxygen.jpg";
 import Ambulance from "./Images/Ambulance.png";
 import icu from "./Images/icu.png";
 import noimage from "./Images/noimage.jpg";
-//import sandwich from "./Images/sandwich.jpeg";
+import beds from "./Images/beds.jpg";
+import medicines from "./Images/Medicines.jfif";
+import meals from "./Images/meals.jfif";
+import doctor from "./Images/doctor.png";
+import hospital from "./Images/hospital.jpg";
+import blood from "./Images/blood.png";
 
 class App extends Component {
   onData(data) {
@@ -22,6 +27,24 @@ class App extends Component {
         ? oxygen
         : data.type === "Ambulance"
         ? Ambulance
+        : data.type === "Non-oxygen beds"
+        ? beds
+        : data.type === "Ventilator"
+        ? beds
+        : data.type === "Meal"
+        ? meals
+        : data.type === "Blood"
+        ? blood
+        : data.type === "Hospital"
+        ? hospital
+        : data.type === "Doctor"
+        ? doctor
+        : data.type === "Medicines"
+        ? medicines
+        : data.type === "Oxygen beds"
+        ? beds
+        : data.type === "Beds"
+        ? beds
         : data.type === "Cylinder"
         ? oxygen
         : data.type === "ICU beds"
@@ -124,6 +147,15 @@ class App extends Component {
                 className="btn  link"
               >
                 <i className="fa fa-linkedin" aria-hidden="true" /> Add Data
+              </a>
+            </div>
+            <div className="links">
+              <a
+                target="_blank"
+                href="https://forms.gle/8VdDPT6PCffqZZXE7"
+                className="btn  link"
+              >
+                <i className="fa fa-linkedin" aria-hidden="true" /> Request Data
               </a>
             </div>
           </nav>
