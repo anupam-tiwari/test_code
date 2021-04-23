@@ -50,6 +50,9 @@ class App extends Component {
                   <b>City</b>: {data.city}
                 </p>
                 <p>
+                  <b>Item</b>: {data.type}
+                </p>
+                <p>
                   <b>Quantity</b>: {data.quantity}
                 </p>
                 <p>
@@ -77,7 +80,7 @@ class App extends Component {
           <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <a className="navbar-brand" href="#">
               <h4 class="main-title">Covid Help </h4>
-              <text class="title">largest crowd source database</text>
+              <text class="title">Largest Crowd Source Database</text>
             </a>
 
             <div className="col-lg-7 dataSearch">
