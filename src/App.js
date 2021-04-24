@@ -137,7 +137,7 @@ class App extends Component {
                 href="https://www.linkedin.com/in/anupam-tiwari/"
                 className="btn  link"
               >
-                <i className="fa fa-linkedin" aria-hidden="true" /> Contact Us
+                <i className="fa fa-linkedin" aria-hidden="true" /> Contact Us!
               </a>
             </div>
             <div className="links">
