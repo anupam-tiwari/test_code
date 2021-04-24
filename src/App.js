@@ -136,8 +136,7 @@ class App extends Component {
               <div class="dropdown">
               <h7 class="contactus">Contact Us</h7>
               <div class="dropdown-content">
-              <p>appleanupam@gmail.com</p>
-              <p>anushka5purohit@gmail.com</p>
+              <p>covidassistanceindia@gmail.com</p>
               </div>
               </div>
               </div>
