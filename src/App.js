@@ -132,13 +132,15 @@ class App extends Component {
               />
             </div>
             <div className="links">
-              <a
-                target="_blank"
-                href="https://www.linkedin.com/in/anupam-tiwari/"
-                className="btn  link"
-              >
-                <i className="fa fa-linkedin" aria-hidden="true" /> Contact Us!
-              </a>
+              <div className="btn  link">
+              <div class="dropdown">
+              <h7 class="contactus">Contact Us</h7>
+              <div class="dropdown-content">
+              <p>appleanupam@gmail.com</p>
+              <p>anushka5purohit@gmail.com</p>
+              </div>
+              </div>
+              </div>
             </div>
             <div className="links">
               <a
