@@ -82,7 +82,7 @@ class App extends Component {
                   <b>Verified </b>: {data.verified}
                 </p>
                 <p>
-                  <b>Verified On</b>: {data.date}
+                  <b>Verified On</b>: {data.timestamp}
                 </p>
               </div>
             </ResultList.Description>
@@ -203,9 +203,10 @@ class App extends Component {
             <div className="col-12 col-lg-6 col-md-6 col-sm-8 scroll">
               <ReactiveList
                 componentId="queryResult"
-                dataField={["name"]}
+                dataField={["timestamp.keyword"]}
                 from={0}
                 size={15}
+                sortBy="desc"
                 renderItem={this.onData}
                 pagination={true}
                 react={{
