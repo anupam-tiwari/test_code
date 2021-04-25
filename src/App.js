@@ -79,10 +79,10 @@ class App extends Component {
                   <b>Quantity</b>: {data.quantity}
                 </p>
                 <p>
-                  <b>Availability</b>: {data.availability}
+                  <b>Verified </b>: {data.verified}
                 </p>
                 <p>
-                  <b>Verified</b>: {data.verified}
+                  <b>Verified On</b>: {data.date}
                 </p>
               </div>
             </ResultList.Description>
