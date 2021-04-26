@@ -51,7 +51,7 @@ class App extends Component {
         ? icu
         : data.type === "Home ICU"
         ? icu
-        : noimage;
+        : medicines;
 
     const { address } = data;
 
